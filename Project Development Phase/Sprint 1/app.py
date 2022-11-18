@@ -9,11 +9,11 @@ import random
 # for ibm
 import ibm_db
 conn = ibm_db.connect(
-    "DATABASE=bludb; HOSTNAME=9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud; PORT= 32459; SECURITY =SSL;UID=rmf92833; PWD=klHw5XHWgYzks5ql;", '', '')
+    "DATABASE=bludb; HOSTNAME=9938aec0-8105-433e-8bf9-0fbb7e48308.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud; PORT= 3245; SECURITY =SSL;UID=rmf928; PWD=klHw5XHWgYzks5ql;", '', '')
 
 # for ibm
 # import ibm_db
-# conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=764264db-9824-4b7c-82df-40d1b13897c2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=32536;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=hhn68702;PWD=JDmq4keRKWs2f0Mi", '', '')
+# conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=764264db-9824-4b7c-82df-40d1b13897c2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=32536;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=hhn68702;PWD=JDmq4keRKWs2f", '', '')
 # end of ibm
 
 app = Flask(__name__)
